@@ -1,0 +1,15 @@
+Logs of the work done
+
+v1.0.0 - GC - 05.11.2019 :
+- AJUI BreadCrumb first version Implemented
+- Breadcrumb model available : arrow, simple
+- Section types : standard, first, current, next, previous
+- States : default, hover, active, disable
+- Callback on click and double click
+- User Manual to check all the features
+- AJUI BreadCrumb Lab implemented
+
+v1.1.0 - GC - 08.11.2019 :
+- CornerRadius of the section scale rather than use the same value as the container
+- New template for the Lab and some fix
+- Lab version added in the title of the lab
