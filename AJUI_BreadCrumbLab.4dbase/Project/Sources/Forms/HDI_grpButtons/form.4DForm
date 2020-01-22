@@ -1,0 +1,271 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 780,
+					"height": 588,
+					"stroke": "transparent"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 780,
+					"height": 59,
+					"fill": "#005EA8",
+					"stroke": "transparent"
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 494,
+					"left": 11,
+					"width": 96,
+					"height": 96,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture1.png"
+				},
+				"HDI": {
+					"type": "text",
+					"top": 10,
+					"left": 0,
+					"width": 780,
+					"height": 44,
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"text": "How Do I"
+				},
+				"Invisible Button2": {
+					"type": "button",
+					"top": 494,
+					"left": 6,
+					"width": 109,
+					"height": 96,
+					"display": false,
+					"method": "ObjectMethods/Invisible Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectSize": {
+					"type": "rectangle",
+					"top": 570,
+					"left": 758,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 566,
+					"left": 487,
+					"width": 284,
+					"height": 17,
+					"dataSource": "AJUI_BC_info ",
+					"textAlign": "right",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom"
+				}
+			}
+		},
+		{
+			"objects": {
+				"bc1": {
+					"type": "input",
+					"top": 170,
+					"left": 101,
+					"width": 368,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/bc1.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove"
+					]
+				},
+				"bc2": {
+					"type": "input",
+					"top": 290,
+					"left": 101,
+					"width": 368,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/bc2.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove"
+					]
+				},
+				"bc3": {
+					"type": "input",
+					"top": 410,
+					"left": 101,
+					"width": 368,
+					"height": 50,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "dotted",
+					"enterable": false,
+					"dragging": "none",
+					"method": "ObjectMethods/bc3.4dm",
+					"events": [
+						"onLoad",
+						"onMouseUp",
+						"onClick",
+						"onMouseEnter",
+						"onMouseLeave",
+						"onMouseMove"
+					]
+				},
+				"Texte": {
+					"type": "text",
+					"top": 133,
+					"left": 101,
+					"width": 340,
+					"height": 19,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Food quality"
+				},
+				"Texte1": {
+					"type": "text",
+					"top": 253,
+					"left": 101,
+					"width": 340,
+					"height": 19,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Delivery time"
+				},
+				"Texte2": {
+					"type": "text",
+					"top": 373,
+					"left": 101,
+					"width": 340,
+					"height": 19,
+					"fontFamily": ".SF NS Text",
+					"fontSize": 16,
+					"fontWeight": "bold",
+					"text": "Driver friendliness"
+				},
+				"Texte3": {
+					"type": "text",
+					"top": 61,
+					"left": 220,
+					"width": 340,
+					"height": 52,
+					"stroke": "#1E90FF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 14,
+					"fontStyle": "italic",
+					"text": "this HDI is used to show you an example  of the use of the grouped buttons model in the case of a satisfaction survey."
+				},
+				"Texte4": {
+					"type": "text",
+					"top": 159,
+					"left": 555,
+					"width": 172,
+					"height": 72,
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 30,
+					"fontWeight": "bold",
+					"text": "Average note"
+				},
+				"average": {
+					"type": "input",
+					"top": 263,
+					"left": 555,
+					"width": 172,
+					"height": 189,
+					"dataSourceTypeHint": "number",
+					"stroke": "#1E90FF",
+					"textAlign": "center",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 80,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"numberFormat": "###0.0",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

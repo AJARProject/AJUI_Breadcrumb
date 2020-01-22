@@ -1,0 +1,252 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"offers_lb": {
+					"type": "listbox",
+					"top": 43,
+					"left": 2,
+					"width": 788,
+					"height": 455,
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"hideFocusRing": true,
+					"movableRows": false,
+					"dataSource": "Form:C1466.customerOffers",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#7E257B",
+					"alternateFill": "#F6DCFF",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 18,
+					"method": "ObjectMethods/offers_lb.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "ref_col",
+							"dataSource": "This:C1470.ref",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#7E257B",
+							"alternateFill": "#F6DCFF",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 18,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Ref",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							},
+							"footer": {
+								"name": "Footer1",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							}
+						},
+						{
+							"name": "date_col",
+							"dataSource": "This:C1470.date",
+							"dataSourceTypeHint": "date",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#7E257B",
+							"alternateFill": "#F6DCFF",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 18,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Date",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							},
+							"footer": {
+								"name": "Footer4",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							}
+						},
+						{
+							"name": "name_col",
+							"dataSource": "This:C1470.name",
+							"width": 200,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#7E257B",
+							"alternateFill": "#F6DCFF",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 18,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Name",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							},
+							"footer": {
+								"name": "Footer2",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							}
+						},
+						{
+							"name": "Qty_col",
+							"dataSource": "This:C1470.qty",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "#7E257B",
+							"alternateFill": "#F6DCFF",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 18,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"method": "ObjectMethods/Qty_col.4dm",
+							"header": {
+								"name": "Header3",
+								"text": "Quantity",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							},
+							"footer": {
+								"name": "Footer3",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							}
+						},
+						{
+							"name": "unitPrice_col",
+							"dataSource": "This:C1470.unitPrice",
+							"dataSourceTypeHint": "number",
+							"width": 100,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#7E257B",
+							"alternateFill": "#F6DCFF",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 18,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Price",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							},
+							"footer": {
+								"name": "Footer5",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							}
+						},
+						{
+							"name": "total_col",
+							"dataSource": "This:C1470.total",
+							"dataSourceTypeHint": "number",
+							"width": 153,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#7E257B",
+							"alternateFill": "#F6DCFF",
+							"fontFamily": ".SF NS Text",
+							"fontSize": 18,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header6",
+								"text": "Total",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							},
+							"footer": {
+								"name": "Footer6",
+								"timeFormat": "hh_mm_ss",
+								"stroke": "#7E257B",
+								"fontFamily": ".SF NS Text",
+								"fontSize": 18
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}
