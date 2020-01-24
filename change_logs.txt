@@ -18,7 +18,7 @@ v1.1.1 - GC - 20.12.2019 :
 Lab :
  - Update menu
  
- v1.2 - GC - 22.01.2020 :
+ v1.2.0 - GC - 22.01.2020 :
  Component :
  - V18
  - New model : groupedButtons
@@ -32,3 +32,6 @@ Lab :
  - Lab manuals updated
  - Set default value for picker color
  
+  v1.2.1 - GC - 24.01.2020 :
+ Component :
+  - Fix formula "SetCurrentSection" when using the model "groupedButtons"
