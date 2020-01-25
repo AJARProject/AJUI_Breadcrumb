@@ -1,0 +1,156 @@
+﻿{
+	"destination": "detailScreen",
+	"formSizeAnchor": "rectSize",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"rectSize": {
+					"type": "rectangle",
+					"top": 330,
+					"left": 758,
+					"width": 22,
+					"height": 20,
+					"visibility": "hidden",
+					"fill": "#FF0000",
+					"stroke": "#FF0000"
+				},
+				"logo": {
+					"type": "input",
+					"top": 57,
+					"left": 64,
+					"width": 197,
+					"height": 161,
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Picture1": {
+					"type": "picture",
+					"top": 101,
+					"left": 370,
+					"width": 117,
+					"height": 117,
+					"pictureFormat": "scaled",
+					"picture": "/RESOURCES/svg/fontawesome-free-5.11.2-desktop/svgs/regular/user.svg"
+				},
+				"Variable": {
+					"type": "input",
+					"top": 45,
+					"left": 355,
+					"width": 406,
+					"height": 44,
+					"dataSource": "Form:C1466.companies[Form:C1466.customerSelected].name",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 36,
+					"fontWeight": "bold",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable1": {
+					"type": "input",
+					"top": 101,
+					"left": 523,
+					"width": 238,
+					"height": 30,
+					"dataSource": "Form:C1466.companies[Form:C1466.customerSelected].lastname",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable2": {
+					"type": "input",
+					"top": 144,
+					"left": 523,
+					"width": 238,
+					"height": 30,
+					"dataSource": "Form:C1466.companies[Form:C1466.customerSelected].firstname",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Variable3": {
+					"type": "input",
+					"top": 188,
+					"left": 523,
+					"width": 238,
+					"height": 30,
+					"dataSource": "Form:C1466.companies[Form:C1466.customerSelected].phone",
+					"stroke": "#0000CD",
+					"textAlign": "right",
+					"fontFamily": ".SF NS Text",
+					"fontSize": 24,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		}
+	]
+}

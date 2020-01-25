@@ -1,0 +1,208 @@
+﻿{
+	"methods": {
+		"bannerUpdate": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"pictfullPath": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"queryPropertiesCol": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"tip_templatesButtons": {
+			"timeStamp": "2020-01-24T16:15:41.809Z"
+		},
+		"storeBreadCrumbsCoordinates": {
+			"timeStamp": "2020-01-24T16:15:41.809Z"
+		},
+		"statesBreadCrumbsDraw": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"templatesButtonsEnable": {
+			"timeStamp": "2020-01-24T16:15:41.809Z"
+		},
+		"setArrayColor": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"FormulaSetValue": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"TLoc_TipSubform_init": {
+			"timeStamp": "2020-01-24T16:15:41.803Z"
+		},
+		"AJUI_bc_InfoLab": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"Quit_lab": {
+			"timeStamp": "2020-01-24T16:15:41.803Z"
+		},
+		"Lab_SetBgColorOther": {
+			"timeStamp": "2020-01-24T16:15:41.803Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"HDI_grpButtons_call": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"setPropertyStyle": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"formulasGetCatAndProps": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"getTLocIcon": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"HDI_ex1_call": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"HDI_setNextDisable": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"load_customers": {
+			"timeStamp": "2020-01-24T16:15:41.806Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"load_customer": {
+			"timeStamp": "2020-01-24T16:15:41.806Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"getTlocPath": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"TLoc_closePref": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"StatesSetValues": {
+			"timeStamp": "2020-01-24T16:15:41.803Z"
+		},
+		"formulasGetValues": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"statesBreadCrumbReset": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"closeNewNameTip": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"lab_call": {
+			"timeStamp": "2020-01-24T16:15:41.806Z"
+		},
+		"refreshPropertiesStyle": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"TLoc_btn_pref_init": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"calcLuminance": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"load_offer": {
+			"timeStamp": "2020-01-24T16:15:41.806Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"setPickerColor": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"newTemplateButton": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"statesBreadCrumbsUpdateSection": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"loadPropertiesCollection": {
+			"timeStamp": "2020-01-24T16:15:41.806Z"
+		},
+		"HDI_ex1_init": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"AJUI_Tip_getSubFormSize": {
+			"timeStamp": "2020-01-24T16:15:41.801Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"resetBreadCrumbsToOriginCoord": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"reloadTemplateList": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"getLuminance": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"closeSaveTempTip": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"hexa2dec": {
+			"timeStamp": "2020-01-24T16:15:41.806Z"
+		},
+		"Lab_setBgColor_btn": {
+			"timeStamp": "2020-01-24T16:15:41.803Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"btn_subform": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"Tip_SaveTempSubform": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"refreshArrayColor": {
+			"timeStamp": "2020-01-24T16:15:41.807Z"
+		},
+		"TLoc_loadPathSettings": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"tip_bgSelectBgColorOther": {
+			"timeStamp": "2020-01-24T16:15:41.809Z"
+		},
+		"HDI_draw": {
+			"timeStamp": "2020-01-24T16:15:41.802Z"
+		},
+		"load_payment": {
+			"timeStamp": "2020-01-24T16:15:41.806Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"setGlobal": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"HDI_setNote": {
+			"timeStamp": "2020-01-24T16:15:41.803Z",
+			"attributes": {
+				"shared": true
+			}
+		},
+		"statesBreadCrumbsVisible": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"setValueToAllSections": {
+			"timeStamp": "2020-01-24T16:15:41.808Z"
+		},
+		"bannerProtectRibbon": {
+			"timeStamp": "2020-01-24T16:15:41.804Z"
+		},
+		"copyPictToFolderTemp": {
+			"timeStamp": "2020-01-24T16:15:41.805Z"
+		},
+		"tip_NewButtonName": {
+			"timeStamp": "2020-01-24T16:15:41.809Z"
+		},
+		"load_delivery": {
+			"timeStamp": "2020-01-24T16:15:41.806Z",
+			"attributes": {
+				"shared": true
+			}
+		}
+	}
+}

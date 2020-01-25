@@ -1,0 +1,51 @@
+﻿{
+	"forms": {
+		"Customers": {
+			"timeStamp": "2020-01-24T16:15:41.789Z",
+			"destination": "detailScreen"
+		},
+		"HDI_example1": {
+			"timeStamp": "2020-01-24T16:15:41.790Z",
+			"destination": "detailScreen"
+		},
+		"Offers-Orders": {
+			"timeStamp": "2020-01-24T16:15:41.793Z",
+			"destination": "detailScreen"
+		},
+		"Payment": {
+			"timeStamp": "2020-01-24T16:15:41.793Z",
+			"destination": "detailScreen"
+		},
+		"lab": {
+			"timeStamp": "2020-01-24T16:15:41.798Z",
+			"destination": "detailScreen"
+		},
+		"Lab_saveTemp": {
+			"timeStamp": "2020-01-24T16:15:41.792Z",
+			"destination": "detailScreen",
+			"shared": true
+		},
+		"labNewNameInput": {
+			"timeStamp": "2020-01-24T16:15:41.799Z",
+			"destination": "detailScreen",
+			"shared": true
+		},
+		"templateLocationSettings": {
+			"timeStamp": "2020-01-24T16:15:41.801Z",
+			"destination": "detailScreen",
+			"shared": true
+		},
+		"Delivery": {
+			"timeStamp": "2020-01-24T16:15:41.789Z",
+			"destination": "detailScreen"
+		},
+		"HDI_grpButtons": {
+			"timeStamp": "2020-01-24T16:15:41.791Z",
+			"destination": "detailScreen"
+		},
+		"Customer": {
+			"timeStamp": "2020-01-24T16:15:41.788Z",
+			"destination": "detailScreen"
+		}
+	}
+}
