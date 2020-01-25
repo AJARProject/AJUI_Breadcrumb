@@ -6,6 +6,9 @@ userPreferences.*
 *.4DD
 *.4DIndx
 *.journal
+*.4BK
+*backup*
+*.match
 */Preferences/*
 Cache.xml
 Conversion*.json
@@ -13,3 +16,4 @@ LogStyleSheet.xsl
 **/DerivedData/**
 !**/DerivedData/*.json
 data.match
+*4DCatalog
