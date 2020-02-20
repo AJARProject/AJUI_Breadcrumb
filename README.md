@@ -6,7 +6,7 @@ A breadcrumb is created via the language and will be displayed in a picture elem
 
 ### Documentation
 
-You can find a PDF with a complete documentation on how to use the component.
+[Wiki AJUI_BreadCrumb](https://github.com/AJARProject/AJUI_Breadcrumb/wiki)
 
 **Example**
 
