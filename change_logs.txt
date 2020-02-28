@@ -32,6 +32,14 @@ Lab :
  - Lab manuals updated
  - Set default value for picker color
  
-  v1.2.1 - GC - 24.01.2020 :
+  v1.2.1 (component) - GC - 24.01.2020 :
  Component :
   - Fix formula "SetCurrentSection" when using the model "groupedButtons"
+  
+  
+ V1.2.1 (lab) - GC - 28.02.2020
+ Lab :
+  - Only the standard and current states are editable in the lab when the Breadcrumb is a groupedButtons model now
+  - Quick save added (Mac : option + clic, Window : alt + clic)
+  - The save form selects the folder type of the template and not the default folder for the dropdown list now
+  - Updated wiki lab manuals

@@ -43,12 +43,31 @@ Case of
 				
 				Form:C1466.Section_pos:=1
 			: ($level_list_ptr->{$level_list_ptr->}="states")
+				
+				C_POINTER:C301($type_list_ptr)
+				
+				$type_list_ptr:=OBJECT Get pointer:C1124(Object named:K67:5;"type_list")
+				
+				ARRAY TEXT:C222($type_list_ptr->;0)
+				
+				If (Form:C1466.bc1.Model()="groupedButtons")
+					APPEND TO ARRAY:C911($type_list_ptr->;"standard")
+					APPEND TO ARRAY:C911($type_list_ptr->;"current")
+				Else 
+					APPEND TO ARRAY:C911($type_list_ptr->;"standard")
+					APPEND TO ARRAY:C911($type_list_ptr->;"first")
+					APPEND TO ARRAY:C911($type_list_ptr->;"current")
+					APPEND TO ARRAY:C911($type_list_ptr->;"next")
+					APPEND TO ARRAY:C911($type_list_ptr->;"previous")
+				End if 
+				
+				
 				OBJECT SET VISIBLE:C603(*;"states_lb";True:C214)
 				OBJECT SET VISIBLE:C603(*;"sections_lb";False:C215)
 				OBJECT SET VISIBLE:C603(*;"type_list";True:C214)
 				OBJECT SET VISIBLE:C603(*;"btnAdd";False:C215)
 				OBJECT SET VISIBLE:C603(*;"btnRemove";False:C215)
-				OBJECT Get pointer:C1124(Object named:K67:5;"type_list")->:=1
+				$type_list_ptr->:=1
 				Form:C1466.currentType:="standard"
 				LISTBOX SELECT ROW:C912(*;"states_lb";1)
 				Form:C1466.currentState:=AJUI_bc_standard_default

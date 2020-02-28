@@ -6,12 +6,7 @@ $evt:=Form event code:C388
 $type_list_ptr:=OBJECT Get pointer:C1124(Object current:K67:2)
 Case of 
 	: ($evt=On Load:K2:1)
-		APPEND TO ARRAY:C911($type_list_ptr->;"standard")
-		APPEND TO ARRAY:C911($type_list_ptr->;"first")
-		APPEND TO ARRAY:C911($type_list_ptr->;"current")
-		APPEND TO ARRAY:C911($type_list_ptr->;"next")
-		APPEND TO ARRAY:C911($type_list_ptr->;"previous")
-		$type_list_ptr->:=1
+		
 	: ($evt=On Data Change:K2:15)
 		Form:C1466.currentType:=$type_list_ptr->{$type_list_ptr->}
 		

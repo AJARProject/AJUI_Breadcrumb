@@ -114,7 +114,9 @@
 					"left": 0,
 					"width": 633,
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"Line4": {
 					"type": "line",
@@ -122,7 +124,9 @@
 					"left": 633,
 					"height": 760,
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"width": 0,
+					"startPoint": "topLeft"
 				},
 				"Picture1": {
 					"type": "picture",
@@ -153,7 +157,9 @@
 					"sizingX": "grow",
 					"sizingY": "move",
 					"stroke": "#C0C0C0",
-					"strokeWidth": 2
+					"strokeWidth": 2,
+					"height": 0,
+					"startPoint": "topLeft"
 				},
 				"Line3": {
 					"type": "line",
@@ -825,22 +831,6 @@
 						"onMouseLeave"
 					]
 				},
-				"RectProtect": {
-					"type": "input",
-					"top": 156,
-					"left": 0,
-					"width": 633,
-					"height": 673,
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "none",
-					"enterable": false,
-					"dragging": "none",
-					"dropping": "custom",
-					"events": [
-						"onDataChange"
-					]
-				},
 				"bgz_bgColor": {
 					"type": "groupBox",
 					"top": 759,
@@ -1067,8 +1057,29 @@
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "custom"
+				},
+				"RectProtect": {
+					"type": "input",
+					"top": 156,
+					"left": 0,
+					"width": 633,
+					"height": 673,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					],
+					"method": "ObjectMethods/RectProtect.4dm"
 				}
 			}
 		}
-	]
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
 }
