@@ -28,6 +28,7 @@ Else
 	$lab:=loadPropertiesCollection 
 	$lab.templateLocPref:=TLoc_loadPathSettings 
 	$lab.trueType:="standard"
+	$lab.tip_sf_details:=New object:C1471
 	$ref_win:=Open form window:C675("lab";Plain form window:K39:10;On the left:K39:2;At the top:K39:5)
 	DIALOG:C40("lab";$lab)
 	CLOSE WINDOW:C154($ref_win)
