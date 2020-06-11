@@ -27,6 +27,7 @@ A breadcrumb is created via the language and will be displayed in a picture elem
 ### Version
 
 1.2.1-Build32  // Wed, 22 Jan 2020 08:57:51 GMT
+
 Minimal 4D Version : 
  - 18 
 
