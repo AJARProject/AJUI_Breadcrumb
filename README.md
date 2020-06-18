@@ -26,10 +26,11 @@ A breadcrumb is created via the language and will be displayed in a picture elem
 
 ### Version
 
-1.2.1-Build32  // Wed, 22 Jan 2020 08:57:51 GMT
+1.2.2-Build36  // Thu, 18 Jun 2020 15:31:52 GMT
 
 Minimal 4D Version : 
- - 18 
+ - 18 (using formula member function)
+ - 18 R3 (using class)
 
 ### Questions?
 
