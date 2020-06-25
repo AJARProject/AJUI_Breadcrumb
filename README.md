@@ -4,6 +4,10 @@ AJUI Breadcrumb is a component made for 4D that help you to create and display b
 
 A breadcrumb is created via the language and will be displayed in a picture element in your form. The breadcrumb is stored in an object that is an instance of a breadcrumb.
 
+### AJUI components library
+
+[AJUI_Library](https://github.com/AJARProject/AJUI_Library)
+
 ### Documentation
 
 [Wiki AJUI_BreadCrumb](https://github.com/AJARProject/AJUI_Breadcrumb/wiki)
