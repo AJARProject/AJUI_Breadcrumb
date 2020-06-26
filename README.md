@@ -14,6 +14,7 @@ A breadcrumb is created via the language and will be displayed in a picture elem
 
 **Example**
 
+```4d
     Case of
       : (Form event=On Load)
         Form.bc:=New AJUI_BreadCrumb
@@ -27,6 +28,7 @@ A breadcrumb is created via the language and will be displayed in a picture elem
     End case
 
     Form.bc.Draw()
+```
 
 ### Version
 
