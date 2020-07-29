@@ -33,11 +33,11 @@ If ($1)
 	  //check picture
 	$sectionWithPict_col:=Form:C1466.bc1.breadCrumb.sectionList.query("picturePath # :1";"")
 	If ($sectionWithPict_col.length<=0)
-		Form:C1466.bc1.Export($templateName;getTlocPath ($icon))
-		$folder:=Folder:C1567(getTlocPath ($icon)+$templateName+Folder separator:K24:12;fk platform path:K87:2)
-		If ($folder.exists)
-			$folder.delete(Delete with contents:K24:24)
-		End if 
+		  //Form.bc1.Export($templateName;getTlocPath ($icon))
+		  //$folder:=Folder(getTlocPath ($icon)+$templateName+Folder separator;fk platform path)
+		  //If ($folder.exists)
+		  //$folder.delete(Delete with contents)
+		  //End if 
 	Else 
 		$folder:=Folder:C1567(Form:C1466.tip_sf_details.currentTemplatePath+$templateName+Folder separator:K24:12;fk platform path:K87:2)
 		If ($folder.exists)

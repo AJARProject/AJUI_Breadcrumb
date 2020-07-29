@@ -62,13 +62,13 @@ For each ($section;Form:C1466.bc1.breadCrumb.sectionList)
 End for each 
 
   //delete old pictures
-ARRAY TEXT:C222($_files;0)
-DOCUMENT LIST:C474($folderTemp;$_files;Absolute path:K24:14)
-For ($i;1;Size of array:C274($_files))
-	If ($_files{$i}#"@.json")
-		$pos:=$picturePath_col.indexOf($_files{$i})
-		If ($pos=-1)
-			DELETE DOCUMENT:C159($_files{$i})
-		End if 
-	End if 
-End for 
+  //ARRAY TEXT($_files;0)
+  //DOCUMENT LIST($folderTemp;$_files;Absolute path)
+  //For ($i;1;Size of array($_files))
+  //If ($_files{$i}#"@.json")
+  //$pos:=$picturePath_col.indexOf($_files{$i})
+  //If ($pos=-1)
+  //DELETE DOCUMENT($_files{$i})
+  //End if 
+  //End if 
+  //End for 

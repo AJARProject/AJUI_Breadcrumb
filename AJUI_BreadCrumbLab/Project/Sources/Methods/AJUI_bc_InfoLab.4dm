@@ -18,4 +18,4 @@ If (False:C215)
 End if 
 C_TEXT:C284($0)
 
-$0:="AJUI BreadCrumb Lab 1.2.1 (v18)"
+$0:="AJUI BreadCrumb Lab 1.2.2 (v18)"
