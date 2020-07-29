@@ -47,3 +47,7 @@ Lab :
  V1.2.2 (lab) - GC - 18.06.2020
   - Added Breadcrumb class
   - Updated wiki
+  
+  v1.2.3 - GC - 29.07.2020
+   - You can use "#" to designate the 4D resources folder in your path when you load a template
+   - Updated wiki

@@ -32,7 +32,7 @@ A breadcrumb is created via the language and will be displayed in a picture elem
 
 ### Version
 
-1.2.2-Build36  // Thu, 18 Jun 2020 15:31:52 GMT
+1.2.3-Build39  // Wed, 29 Jul 2020 07:27:21 GMT
 
 Minimal 4D Version : 
  - 18 (using formula member function)
