@@ -1,3 +1,12 @@
+![DEPRECATED](https://img.shields.io/badge/-DEPRECATED-red)
+
+## Source published
+This repository will not be used anymore. Please look at [AJUI_Breadcrumb_source](https://github.com/AJARProject/AJUI_Breadcrumb_source).
+
+---
+---
+---
+
 # AJUI_Breadcrumb
 
 AJUI Breadcrumb is a component made for 4D that help you to create and display breadcrumb in your forms. You can fully customize your breadcrumbs and have templates to easily use the same style everywhere in your application.
